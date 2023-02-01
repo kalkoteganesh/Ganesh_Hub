@@ -56,7 +56,8 @@ public class AddAccountPage extends Page{
 	
 	
 	public void display() {
-		System.out.println("kjahcjd");
+		System.out.println("ganesh");
+		System.out.println("raaaj");
 	}
 	
 	
