@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="org.tditsolutions.qa.listeners.TestNGListeners">
+			
+		</listener>
+		<listener
+			class-name="org.tditsolutions.qa.listeners.ExtentReportListener">
+			
+		</listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+		<class name="org.tditsolutions.qa.tests.LoginPageTest" />
+			<class name="org.tditsolutions.qa.tests.HomePageTest" />
+			<class name="org.tditsolutions.qa.tests.AddAccountTest" />
+			<class name="org.tditsolutions.qa.tests.UpdateAccountTest" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
